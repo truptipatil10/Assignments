@@ -1,0 +1,17 @@
+<p>productcategory-list works!</p>
+
+<h1>PRODUCT  Category DETAILS</h1>
+<table border="1">
+    <tr>
+        <th>categoryid</th>
+        <th>categoryname</th>
+  
+        
+    </tr>
+
+    <tr *ngFor="let cat of productcategorys">
+        <th>{{cat.categoryid}}</th>
+        <th>{{cat.categoryname}}</th>
+      
+    </tr>
+</table>
